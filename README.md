@@ -48,7 +48,7 @@ IRC 图显示每步绝对能量、相对 TS 能量、最大梯度及 RMS 梯度�
   optviewer examples/decane/decane_optfreq.out -M examples/decane/mem.png
   optviewer examples/decane/decane_optfreq.out   # 实时窗口
   ```
-- `examples/inputs/`：ORCA View 的演示输入（Gaussian `.gjf` 与 ORCA `.inp` 各一）。
+- `examples/inputs/`：ORCA 与 Gaussian 输入文件示例（`.inp` / `.gjf` 各一）。
 
 ## 性能说明
 
@@ -57,21 +57,3 @@ IRC 图显示每步绝对能量、相对 TS 能量、最大梯度及 RMS 梯度�
 ## 构建与测试
 
 维护说明：新增逻辑位于 `optviewer.py`。原有优化绘图器以原包内的 Python 3.14 字节码 `legacy_optviewer.marshal` 保留。原版程序备份在 `backups/optviewer-1.0.0.exe`。运行 `python build_optviewer.py` 可使用原包的 Python、matplotlib 与 Windows 自带 .NET 编译器重新打包，无需下载依赖；`optviewer.exe` 可独立运行。回归检查使用 `python -m pytest tests -q -p no:anyio`（若本机 Anaconda 的 anyio 插件导致 pytest 启动即挂起，用 `-p no:anyio` 禁用即可；也可设环境变量 `PYTEST_DISABLE_PLUGIN_AUTOLOAD=1`）。
-
----
-
-# ORCA View（独立的结构查看器）
-
-`ORCA View.exe` is a native Windows desktop application for inspecting ORCA calculation files. It is compiled as a single x64 executable and does not require Python, Node.js, a browser, or a local server. On Windows 11 it uses the .NET Framework desktop components included with Windows.
-
-## Use
-
-Double-click `ORCA View.exe`, then choose **打开输入 .inp**, **打开输出 .out**, or **打开结构**. Files can also be dragged onto the molecular view. You can pass a file path to the executable to open it at startup.
-
-The viewer currently reads ORCA `.inp`, `.out`/`.log`, and `.xyz` files, plus basic Gaussian `.gjf`/`.com` and CIF atom-site coordinates. It displays a rotatable ball-and-stick structure, atom coordinates, the optimization energy trend, final energy, optimization cycles/status, frequencies, warnings, and error lines. The current structure can be exported as XYZ.
-
-Controls: left-drag to rotate, mouse wheel to zoom, right-drag or Shift+drag to pan. Use the **键** and **元素** buttons to toggle bonds and labels.
-
-For `.inp` files that use `* xyzfile`, open the referenced XYZ separately to load its structure. The first version reads CIF coordinates but does not expand symmetry operations or periodic images. Parsed values are for quick review; consult the original ORCA output for scientific reporting.
-
-`ORCAView.cs` is the source used to build `ORCA View.exe`. It is separate from the `optviewer.exe` command-line plotting tool described above.
