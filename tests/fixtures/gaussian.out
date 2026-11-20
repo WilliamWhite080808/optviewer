@@ -1,0 +1,15 @@
+Gaussian 16: Revision C.01
+SCF Done: E(RB3LYP) = -100.000000 A.U. after 10 cycles
+         Item               Value     Threshold  Converged?
+ Maximum Force            0.004000     0.000450     NO
+ RMS     Force            0.002000     0.000300     NO
+ Maximum Displacement     0.040000     0.001800     NO
+ RMS     Displacement     0.020000     0.001200     NO
+SCF Done: E(RB3LYP) = -100.010000 A.U. after 7 cycles
+         Item               Value     Threshold  Converged?
+ Maximum Force            0.000040     0.000450     YES
+ RMS     Force            0.000020     0.000300     YES
+ Maximum Displacement     0.000400     0.001800     YES
+ RMS     Displacement     0.000200     0.001200     YES
+Optimization completed.
+Normal termination of Gaussian 16

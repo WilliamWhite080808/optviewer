@@ -1,0 +1,24 @@
+                         O   R   C   A
+Program Version 6.1.1
+! B3LYP def2-SVP OptTS
+GEOMETRY OPTIMIZATION CYCLE 1
+FINAL SINGLE POINT ENERGY -100.000000
+Geometry convergence
+Item               value       Tolerance    Converged
+Energy change     -0.010000     0.000005     NO
+RMS gradient       0.002000     0.000100     NO
+MAX gradient       0.004000     0.000300     NO
+RMS step           0.020000     0.002000     NO
+MAX step           0.040000     0.004000     NO
+GEOMETRY OPTIMIZATION CYCLE 2
+FINAL SINGLE POINT ENERGY -100.010000
+Geometry convergence
+Item               value       Tolerance    Converged
+Energy change     -0.000001     0.000005     YES
+RMS gradient       0.000020     0.000100     YES
+MAX gradient       0.000040     0.000300     YES
+RMS step           0.000200     0.002000     YES
+MAX step           0.000400     0.004000     YES
+THE OPTIMIZATION HAS CONVERGED
+0: -200.00 cm**-1
+ORCA TERMINATED NORMALLY

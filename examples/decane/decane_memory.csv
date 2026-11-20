@@ -1,0 +1,44 @@
+﻿record,source_line,memory_mb,module_or_label,original_log_line
+1,736,9.24,MB in use,MB in use           =      9.24
+2,836,31.6,STARTUP,Maximum memory used throughout the entire STARTUP-calculation: 31.6 MB
+3,967,12.4,GUESS,Maximum memory used throughout the entire GUESS-calculation: 12.4 MB
+4,1710,22.0,LEANSCF,Maximum memory used throughout the entire LEANSCF-calculation: 22.0 MB
+5,1754,13.0,PROPINT,Maximum memory used throughout the entire PROPINT-calculation: 13.0 MB
+6,1834,27.1,SCFGRAD,Maximum memory used throughout the entire SCFGRAD-calculation: 27.1 MB
+7,2277,9.65,MB in use,MB in use           =      9.65
+8,2377,32.0,STARTUP,Maximum memory used throughout the entire STARTUP-calculation: 32.0 MB
+9,2387,12.8,GUESS,Maximum memory used throughout the entire GUESS-calculation: 12.8 MB
+10,2467,21.8,LEANSCF,Maximum memory used throughout the entire LEANSCF-calculation: 21.8 MB
+11,2511,12.9,PROPINT,Maximum memory used throughout the entire PROPINT-calculation: 12.9 MB
+12,2591,26.7,SCFGRAD,Maximum memory used throughout the entire SCFGRAD-calculation: 26.7 MB
+13,3038,9.63,MB in use,MB in use           =      9.63
+14,3138,32.0,STARTUP,Maximum memory used throughout the entire STARTUP-calculation: 32.0 MB
+15,3148,12.8,GUESS,Maximum memory used throughout the entire GUESS-calculation: 12.8 MB
+16,3225,21.8,LEANSCF,Maximum memory used throughout the entire LEANSCF-calculation: 21.8 MB
+17,3269,12.9,PROPINT,Maximum memory used throughout the entire PROPINT-calculation: 12.9 MB
+18,3350,26.8,SCFGRAD,Maximum memory used throughout the entire SCFGRAD-calculation: 26.8 MB
+19,3797,9.65,MB in use,MB in use           =      9.65
+20,3897,32.0,STARTUP,Maximum memory used throughout the entire STARTUP-calculation: 32.0 MB
+21,3907,12.8,GUESS,Maximum memory used throughout the entire GUESS-calculation: 12.8 MB
+22,3983,21.8,LEANSCF,Maximum memory used throughout the entire LEANSCF-calculation: 21.8 MB
+23,4027,12.9,PROPINT,Maximum memory used throughout the entire PROPINT-calculation: 12.9 MB
+24,4107,26.8,SCFGRAD,Maximum memory used throughout the entire SCFGRAD-calculation: 26.8 MB
+25,4554,9.66,MB in use,MB in use           =      9.66
+26,4654,32.0,STARTUP,Maximum memory used throughout the entire STARTUP-calculation: 32.0 MB
+27,4664,12.9,GUESS,Maximum memory used throughout the entire GUESS-calculation: 12.9 MB
+28,4740,21.9,LEANSCF,Maximum memory used throughout the entire LEANSCF-calculation: 21.9 MB
+29,4784,12.9,PROPINT,Maximum memory used throughout the entire PROPINT-calculation: 12.9 MB
+30,4865,26.8,SCFGRAD,Maximum memory used throughout the entire SCFGRAD-calculation: 26.8 MB
+31,5312,9.66,MB in use,MB in use           =      9.66
+32,5412,32.0,STARTUP,Maximum memory used throughout the entire STARTUP-calculation: 32.0 MB
+33,5422,12.9,GUESS,Maximum memory used throughout the entire GUESS-calculation: 12.9 MB
+34,5497,21.9,LEANSCF,Maximum memory used throughout the entire LEANSCF-calculation: 21.9 MB
+35,5541,12.9,PROPINT,Maximum memory used throughout the entire PROPINT-calculation: 12.9 MB
+36,5622,26.8,SCFGRAD,Maximum memory used throughout the entire SCFGRAD-calculation: 26.8 MB
+37,6154,9.66,MB in use,MB in use           =      9.66
+38,6254,32.0,STARTUP,Maximum memory used throughout the entire STARTUP-calculation: 32.0 MB
+39,6374,12.9,GUESS,Maximum memory used throughout the entire GUESS-calculation: 12.9 MB
+40,7110,22.0,LEANSCF,Maximum memory used throughout the entire LEANSCF-calculation: 22.0 MB
+41,7176,349.0,PROPINT,Maximum memory used throughout the entire PROPINT-calculation: 349.0 MB
+42,7254,348.8,SCFRESP,Maximum memory used throughout the entire SCFRESP-calculation: 348.8 MB
+43,9369,118.8,PROP,Maximum memory used throughout the entire PROP-calculation: 118.8 MB

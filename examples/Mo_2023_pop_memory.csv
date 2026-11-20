@@ -1,0 +1,7 @@
+﻿record,source_line,memory_mb,module_or_label,original_log_line
+1,802,35.56,MB in use,MB in use           =     35.56
+2,902,88.4,STARTUP,Maximum memory used throughout the entire STARTUP-calculation: 88.4 MB
+3,1039,46.0,GUESS,Maximum memory used throughout the entire GUESS-calculation: 46.0 MB
+4,2578,94.2,LEANSCF,Maximum memory used throughout the entire LEANSCF-calculation: 94.2 MB
+5,2813,108.7,SCFGRAD,Maximum memory used throughout the entire SCFGRAD-calculation: 108.7 MB
+6,2912,48.0,PROP,Maximum memory used throughout the entire PROP-calculation: 48.0 MB
